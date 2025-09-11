@@ -1,0 +1,19 @@
+# Python virtual environments
+solar_env/
+venv/
+
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Build artifacts
+solar-sentinel-frontend/build/
+
+# Miscellaneous
+.DS_Store

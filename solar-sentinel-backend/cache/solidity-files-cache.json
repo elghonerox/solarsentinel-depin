@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\ILYSS\\solarsentinel-ai\\solar-sentinel-backend\\contracts\\RewardPayout.sol": {
+      "lastModificationDate": 1755146730111,
+      "contentHash": "f76ceea30db16afe15145cf4a61b7aae",
+      "sourceName": "contracts/RewardPayout.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "RewardPayout"
+      ]
+    }
+  }
+}

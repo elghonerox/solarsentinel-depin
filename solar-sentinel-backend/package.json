@@ -1,0 +1,46 @@
+{
+  "name": "solar-sentinel-backend",
+  "version": "2.0.0",
+  "description": "DePIN Solar Panel Monitoring with Hedera",
+  "main": "solar-sentinel-backend.js",
+  "scripts": {
+    "start": "node solar-sentinel-backend.js server",
+    "dev": "nodemon solar-sentinel-backend.js server",
+    "test": "node solar-sentinel-backend.js test",
+    "init": "node solar-sentinel-backend.js init",
+    "build": "npm run lint && npm run test",
+    "lint": "eslint solar-sentinel-backend.js --fix",
+    "deploy:testnet": "npm run build && cross-env HEDERA_NETWORK=testnet node solar-sentinel-backend.js init",
+    "deploy:mainnet": "npm run build && cross-env HEDERA_NETWORK=mainnet node solar-sentinel-backend.js init",
+    "deploy:docker": "docker build -t solar-sentinel .",
+    "deploy:heroku": "git push heroku main",
+    "deploy:aws": "npm run build && eb deploy",
+    "monitor": "pm2 start solar-sentinel-backend.js --name solar-sentinel --watch",
+    "logs": "pm2 logs solar-sentinel",
+    "stop": "pm2 stop solar-sentinel",
+    "integration": "node integration.js",
+    "integration:dev": "nodemon integration.js"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.0.1",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@hashgraph/sdk": "^2.70.0",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.1.0",
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "cross-env": "^7.0.0",
+    "dotenv": "^17.2.1",
+    "eslint": "^8.50.0",
+    "ethers": "^6.15.0",
+    "hardhat": "^2.26.3",
+    "nodemon": "^3.1.10",
+    "pm2": "^5.3.0"
+  },
+  "type": "commonjs"
+}
