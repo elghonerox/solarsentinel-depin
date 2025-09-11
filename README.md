@@ -105,6 +105,7 @@ Open http://localhost:3000 to view the dashboard.
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
+Note*: The live dashboard requires the backend (`backend-api-server.js`, port 3001), integration server (`integration.js`, port 4000), and AI server (`solar_ai.py`, port 5000) running locally. Follow the Setup instructions to start the servers, then access the dashboard at http://localhost:3000 for full functionality.
 ## Contributing
 
 Built for **Hedera Africa Hackathon 2025** - Empowering rural communities through decentralized solar monitoring and AI-driven predictive maintenance.
