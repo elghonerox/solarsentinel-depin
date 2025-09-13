@@ -91,7 +91,7 @@ Access the frontend at: https://solar-sentinel-frontend-64ay8r500-hamzas-project
 - 🌱 **CO₂ Reduction**: 1.045 kg saved per day
 - 💰 **Economic Value**: $6,298 in prevented losses
 - 🎯 **Downtime Reduction**: 30% improvement
-- 🪙 **Tokens Earned**: 14 ETK for community rewards
+- 🪙 **Tokens Earned**: 3.84 ETK total supply for community rewards
 
 ## Architecture
 
