@@ -1,0 +1,33 @@
+{
+  "name": "solarsentinel-depin",
+  "version": "1.0.0",
+  "description": "Proof-of-concept AI-powered DePIN for predictive solar panel monitoring in rural Africa",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "simulator"
+  ],
+  "scripts": {
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install && cd ../simulator && npm install && cd ../ai-server && pip install -r requirements.txt",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\" \"npm run dev:simulator\" \"npm run dev:ai\"",
+    "dev:frontend": "cd frontend && npm start",
+    "dev:backend": "cd backend && npm start",
+    "dev:simulator": "cd simulator && npm start",
+    "dev:ai": "cd ai-server && source venv/bin/activate && python server.py"
+  },
+  "keywords": [
+    "depin",
+    "hedera",
+    "solar",
+    "ai",
+    "blockchain",
+    "africa",
+    "iot"
+  ],
+  "author": "SolarSentinel Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
