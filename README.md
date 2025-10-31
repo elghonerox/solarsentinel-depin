@@ -9,7 +9,7 @@
 
 [🚀 Live Demo](#) · [📺 Video](#) · [📖 Documentation](docs/) · [🏆 Hackathon](https://dorahacks.io/hackathon/hederahackafrica)
 
-**⚠️ This is a prototype built for educational and demonstration purposes. Real-world deployment requires field validation.**
+**⚠️ This is a prototype built for educational and demonstration purposes for the Hedera Africa Hackathon 2025. Real-world deployment requires field validation.**
 
 </div>
 
@@ -257,7 +257,9 @@ npm start
 ### Built for Hedera Africa Hackathon 2025
 
 **Track**: AI & DePIN  
-**Team**: [Your Name/Team Name]
+**Team**: Hamza El Ghomri 
+Dorahacks username: @web3knight
+
 
 ### We're Seeking
 
