@@ -143,10 +143,10 @@ const Dashboard = ({
           <strong>Next Steps:</strong> Field validation with real IoT sensors to test if AI accuracy holds in production.
         </p>
         <div style={{ marginTop: '15px' }}>
-          <a href="https://github.com/yourusername/solarsentinel-depin" target="_blank" rel="noopener noreferrer" style={{ marginRight: '15px' }}>
+          <a href="https://github.com/elghonerox/solarsentinel-depin" target="_blank" rel="noopener noreferrer" style={{ marginRight: '15px' }}>
             📖 Documentation
           </a>
-          <a href="https://github.com/yourusername/solarsentinel-depin/blob/main/docs/LIMITATIONS.md" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/elghonerox/solarsentinel-depin/blob/main/docs/LIMITATIONS.md" target="_blank" rel="noopener noreferrer">
             🚧 Known Limitations
           </a>
         </div>
