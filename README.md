@@ -274,6 +274,8 @@ MIT License - See [LICENSE](LICENSE) file
 
 ---
 
+I have successfully completed the Hedera Africa Hackathon 2025 and would like to share my certificate of participation. You can view and download my certificate from the following link: https://drive.google.com/file/d/1mtUd6K7sxVMXWLco33X3gV9W4fWMtVS1/view?usp=drive_link
+
 ## 🌟 Our Commitment
 
 **SolarSentinel is a prototype built to explore a hypothesis**: Can AI + blockchain make professional solar monitoring affordable for underserved communities?
