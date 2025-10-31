@@ -266,8 +266,6 @@ npm start
 - Hardware engineers experienced with IoT
 - Solar maintenance technicians for feedback
 
-**Contact**: [your-email@domain.com]
-
 ---
 
 ## 📄 License
